@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Courgette Regular';
+    src: url(resources/fonts/Courgette-Regular.ttf);
+}
+
+.nav-container {
+    background-color: #293241;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #98c1d9;
+}
+
+.nav-link:active {
+    color: #3d5a80;
+}
+
+.nav-link:after {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #98c1d9;
+}
+
+a:active {
+    color: #3d5a80;
+}
+
+a:after {
+    color: white;
+}
+
+.navbar-toggler {
+background-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+    border-color: #ffffff;
+    background-color: #293241;
+}
+
+#navbarCollapse {
+    background-color: 293241;
+}
+
+#brandname {
+    font-family: 'Courgette', cursive;
+}
+
+#searchbar {
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+#yourcart {
+    border-radius: 10px;
+}
+
+@media (min-width:992px) {
+    #yourcart {
+        background-color: #ee6c4d;
+    }
+}
