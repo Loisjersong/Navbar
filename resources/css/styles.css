@@ -62,7 +62,8 @@ background-color: white;
 
 #searchbar {
     border-radius: 10px;
-    margin-right: 15px;
+    margin-right: 10px;
+    
 }
 
 #yourcart {
@@ -72,5 +73,20 @@ background-color: white;
 @media (min-width:992px) {
     #yourcart {
         background-color: #ee6c4d;
+    }
+}
+
+
+@media (max-width:368px) {
+    #searchbar {
+        height: ;
+        width: 50vw;
+    }
+}
+
+@media (max-width:320px) {
+    #searchbar {
+        height: ;
+        width: 47vw;
     }
 }
